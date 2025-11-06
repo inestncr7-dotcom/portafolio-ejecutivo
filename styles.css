@@ -1,0 +1,106 @@
+@import ('C:\Users\libra\Desktop\images);
+
+:root {
+  --font-ibm: "IBM Plex Mono", monospace;
+  --font-raleway: "Raleway", sans-serif;
+}
+
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  background: #080808;
+  height: 700px;
+}
+
+.menu {
+  max-width: 1100px;
+  background: #1b1b1b;
+  height: 70px;
+  border-radius: 0 0 8px 8px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 95px;
+}
+
+.menu_bar ul,
+.menu_social ul {
+  display: flex;
+  list-style: none;
+}
+
+.menu_bar a {
+  color: #9C9C9C;
+  text-decoration: none;
+  font-size: 14px;
+  display: block;
+  padding: 27px 35px;
+  transition: all 0.5s ease;
+  font-family: var(--font-ibm);
+
+}
+
+.menu_bar a:hover {
+  background: #9C9C9C;
+  color: #1b1b1b;
+}
+
+.menu_social ul {
+  align-items: center;
+  height: 100%;
+  gap: 25px;
+}
+
+.menu_social img {
+  transition: all 0.5s ease;
+}
+
+.menu_social img:hover {
+  transform: scale(1.2)
+}
+
+.hero_content {
+  margin: auto;
+  margin-top: 80px;
+  max-width: 920px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.hero_content h1 {
+  color: #fff;
+  font-weight: 900;
+  font-size: 44px;
+  font-family: var(--font-raleway)
+}
+
+.hero_content p {
+  line-height: 24px;
+  font-size: 14px;
+  color: #9C9C9C;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-family: var(--font-ibm);
+}
+
+.btn_green {
+  background: #3F8E00;
+  border: 1px solid #62BA1B;
+  border-radius: 4px;
+  display: flex;
+  width: 307px;
+  height: 63px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: var(--font-ibm);
+}
